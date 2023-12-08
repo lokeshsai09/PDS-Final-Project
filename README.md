@@ -1,2 +1,2 @@
-Model generation contains Detaisl needed for traning the model
-Web app contians application running the model
+Model generation contains Details needed for training the model
+Web app contains application running the model
