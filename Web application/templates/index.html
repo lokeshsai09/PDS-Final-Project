@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+    <head>
+        <title>PDS Project</title>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script type=text/javascript src="{{url_for('static',filename='script.js')}}"></script>
+        <script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.js"></script>
+        <link rel="stylesheet" href="{{url_for('static',filename='style.css')}}">
+        <link rel="stylesheet" href="https://cdn.datatables.net/1.13.7/css/jquery.dataTables.css" />
+    </head>
+    <body>
+        <div class="container">
+          <div class="column">
+            <h2>
+              Camera Feed
+            </h2>
+            <div class="camerafeed">
+              <img src="{{ url_for('video') }}" />
+            </div>
+          </div>
+          <div class="column">
+            <h2>
+              Song recommendations
+            </h2>
+            <div id="ResultArea">
+              
+            </div>
+          </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.container {
+ padding: 10px;
+ display: flex;
+ justify-content: center;
+ height :1500px
+}
+
+.column{
+    width: 50%;
+    background-color: #10328739;
+    padding: 15px;
+    border:2px black;
+    text-align: center;
+}
+
+.camerafeed img{
+    height: 50%;
+    max-width: 100%;
+    display: block;
+}
